@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		182E731722C40B3D008F0984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182E731522C40B3D008F0984 /* Main.storyboard */; };
+=======
+		797D26F922C40F5A00214E1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797D26F722C40F5A00214E1C /* Main.storyboard */; };
+		797D26FB22C4159F00214E1C /* Frank_Ruhl_Libre in Resources */ = {isa = PBXBuildFile; fileRef = 797D26FA22C4159F00214E1C /* Frank_Ruhl_Libre */; };
+>>>>>>> 5d05b49250c7a0c2aaa6af492234c837990b124b
 		C69021E622C3E71900FF21FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69021E522C3E71900FF21FF /* AppDelegate.swift */; };
 		C69021E822C3E71900FF21FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69021E722C3E71900FF21FF /* ViewController.swift */; };
 		C69021EE22C3E71A00FF21FF /* react.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C69021EC22C3E71A00FF21FF /* react.xcdatamodeld */; };
@@ -35,7 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		182E731622C40B3D008F0984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+=======
+		797D26F822C40F5A00214E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		797D26FA22C4159F00214E1C /* Frank_Ruhl_Libre */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Frank_Ruhl_Libre; path = ../../../../Downloads/Frank_Ruhl_Libre; sourceTree = "<group>"; };
+>>>>>>> 5d05b49250c7a0c2aaa6af492234c837990b124b
 		C69021E222C3E71900FF21FF /* react.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = react.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69021E522C3E71900FF21FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C69021E722C3E71900FF21FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,8 +111,13 @@
 			children = (
 				C69021E522C3E71900FF21FF /* AppDelegate.swift */,
 				C69021E722C3E71900FF21FF /* ViewController.swift */,
+<<<<<<< HEAD
 				182E731522C40B3D008F0984 /* Main.storyboard */,
+=======
+				797D26F722C40F5A00214E1C /* Main.storyboard */,
+>>>>>>> 5d05b49250c7a0c2aaa6af492234c837990b124b
 				C69021EF22C3E71F00FF21FF /* Assets.xcassets */,
+				797D26FA22C4159F00214E1C /* Frank_Ruhl_Libre */,
 				C69021F122C3E71F00FF21FF /* LaunchScreen.storyboard */,
 				C69021F422C3E71F00FF21FF /* Info.plist */,
 				C69021EC22C3E71A00FF21FF /* react.xcdatamodeld */,
@@ -234,7 +249,12 @@
 			files = (
 				182E731722C40B3D008F0984 /* Main.storyboard in Resources */,
 				C69021F322C3E71F00FF21FF /* LaunchScreen.storyboard in Resources */,
+				797D26FB22C4159F00214E1C /* Frank_Ruhl_Libre in Resources */,
 				C69021F022C3E71F00FF21FF /* Assets.xcassets in Resources */,
+<<<<<<< HEAD
+=======
+				797D26F922C40F5A00214E1C /* Main.storyboard in Resources */,
+>>>>>>> 5d05b49250c7a0c2aaa6af492234c837990b124b
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,10 +317,17 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+<<<<<<< HEAD
 		182E731522C40B3D008F0984 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				182E731622C40B3D008F0984 /* Base */,
+=======
+		797D26F722C40F5A00214E1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				797D26F822C40F5A00214E1C /* Base */,
+>>>>>>> 5d05b49250c7a0c2aaa6af492234c837990b124b
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -438,13 +465,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6262DHPJG6;
+				DEVELOPMENT_TEAM = D25WZW2A85;
 				INFOPLIST_FILE = react/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KWK.react;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.react19;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -458,13 +485,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6262DHPJG6;
+				DEVELOPMENT_TEAM = D25WZW2A85;
 				INFOPLIST_FILE = react/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KWK.react;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.react19;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
