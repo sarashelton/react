@@ -11,6 +11,22 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="react" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="avb-Cw-StL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1077.5999999999999" y="114.69265367316342"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="Utf-lb-e2L">
             <objects>
                 <viewController id="TqI-y3-YVn" sceneMemberID="viewController">
@@ -54,6 +70,9 @@
                                 <state key="normal" title="login">
                                     <color key="titleColor" red="0.0" green="0.070588235289999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="vRr-Bt-813"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="h39-x6-xEt">
                                 <rect key="frame" x="29" y="178" width="316" height="21"/>
@@ -126,6 +145,9 @@
                                 <state key="normal" title="sign up">
                                     <color key="titleColor" red="0.0" green="0.070588235289999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="sDT-MP-2bi"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jjb-hX-s92">
                                 <rect key="frame" x="16" y="117" width="58" height="23"/>
@@ -260,80 +282,23 @@
             </objects>
             <point key="canvasLocation" x="119.2" y="79.610194902548727"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="GZw-gY-BNi">
+        <!--Navigation Controller-->
+        <scene sceneID="7yO-7W-gVM">
             <objects>
-                <viewController id="ANj-n2-soc" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wNA-Ge-HdF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0nG-oL-aqY">
-                                <rect key="frame" x="0.0" y="20" width="375" height="980"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3tr-ur-fRh">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fTv-v9-5ac">
-                                                <rect key="frame" x="113.5" y="14" width="108" height="220"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pej-Po-Uyp">
-                                                        <rect key="frame" x="3.5" y="0.0" width="101" height="30"/>
-                                                        <state key="normal" title="womens rights"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQb-xN-lXo">
-                                                        <rect key="frame" x="14.5" y="38" width="79" height="30"/>
-                                                        <state key="normal" title="get invoved"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uyk-va-LyF">
-                                                        <rect key="frame" x="10" y="76" width="88" height="30"/>
-                                                        <state key="normal" title="get informed"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNB-OF-Dr1">
-                                                        <rect key="frame" x="24" y="114" width="60" height="30"/>
-                                                        <state key="normal" title="upcoimg"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MhA-MB-u9I">
-                                                        <rect key="frame" x="0.0" y="152" width="108" height="30"/>
-                                                        <state key="normal" title="wear ur spoorut"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5w-0a-Yzh">
-                                                        <rect key="frame" x="0.5" y="190" width="107" height="30"/>
-                                                        <state key="normal" title="post ur support"/>
-                                                    </button>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1000" id="YLq-Dv-5lK"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="3tr-ur-fRh" firstAttribute="leading" secondItem="0nG-oL-aqY" secondAttribute="leading" id="DAw-qe-zZn"/>
-                                    <constraint firstAttribute="bottom" secondItem="3tr-ur-fRh" secondAttribute="bottom" id="gxj-0E-rZX"/>
-                                    <constraint firstItem="3tr-ur-fRh" firstAttribute="top" secondItem="0nG-oL-aqY" secondAttribute="top" id="ite-Yl-LVW"/>
-                                    <constraint firstAttribute="trailing" secondItem="3tr-ur-fRh" secondAttribute="trailing" id="s57-bu-GrK"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="TGX-vB-Wzo" firstAttribute="trailing" secondItem="0nG-oL-aqY" secondAttribute="trailing" id="6m4-ZO-H5y"/>
-                            <constraint firstItem="3tr-ur-fRh" firstAttribute="width" secondItem="wNA-Ge-HdF" secondAttribute="width" id="FpQ-8a-Q6P"/>
-                            <constraint firstItem="TGX-vB-Wzo" firstAttribute="bottom" secondItem="0nG-oL-aqY" secondAttribute="bottom" id="ZWp-xa-sdI"/>
-                            <constraint firstItem="0nG-oL-aqY" firstAttribute="top" secondItem="TGX-vB-Wzo" secondAttribute="top" id="g6V-uj-PJm"/>
-                            <constraint firstItem="0nG-oL-aqY" firstAttribute="leading" secondItem="TGX-vB-Wzo" secondAttribute="leading" id="kwo-zr-t85"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="TGX-vB-Wzo"/>
-                    </view>
-                    <size key="freeformSize" width="375" height="1000"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sy0-Q6-bsd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RU3-VY-ge0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KqU-Jb-ovq">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="w0y-C6-vcZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qVH-rm-bfk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1103" y="203"/>
+            <point key="canvasLocation" x="120.8" y="773.16341829085468"/>
         </scene>
     </scenes>
     <resources>
@@ -343,6 +308,8 @@
         <image name="theissues" width="419" height="179"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="S1W-Rw-dbv"/>
+        <segue reference="NED-hl-IP9"/>
+        <segue reference="VXI-eF-dWa"/>
+        <segue reference="vRr-Bt-813"/>
     </inferredMetricsTieBreakers>
 </document>
